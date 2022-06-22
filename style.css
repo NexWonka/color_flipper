@@ -1,0 +1,35 @@
+html{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.center{
+  text-align: center;
+}
+.btn{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #00bcd4;
+  color: #fff;
+}
+.btn:hover{
+  transition: all;
+  transition-duration: 5ms;
+  background-color: #0097a7;
+}
+.btn:active{
+  background-color: #016a75;
+  transform: scale(0.95);
+}
